@@ -1,3 +1,18 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Lexend Deca', sans-serif; */
+}
+
+.main-img {
+  max-width: 100%;
+  display: block;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

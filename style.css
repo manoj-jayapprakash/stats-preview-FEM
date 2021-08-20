@@ -19,9 +19,14 @@ body {
   max-width: 800px;
 }
 
+.image {
+  background-color: hsl(277, 81%, 30%);
+}
+
 .main-img {
   max-width: 100%;
   display: block;
+  opacity: 0.3;
 }
 
 .content {

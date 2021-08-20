@@ -16,6 +16,7 @@ body {
   background-color: hsl(244, 38%, 16%);
   border-radius: 10px;
   overflow: hidden;
+  max-width: 800px;
 }
 
 .main-img {
@@ -66,4 +67,37 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 600px) {
+  .statistics {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem auto;
+  }
+
+  .image {
+    object-fit: cover;
+    width: 50%;
+  }
+
+  .content {
+    width: 50%;
+    text-align: left;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+  .stats {
+    display: flex;
+    gap: 2rem;
+  }
+  .stats__numbers {
+    font-size: 1rem;
+  }
+
+  .stats__title {
+    font-size: 0.6rem;
+  }
 }
